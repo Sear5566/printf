@@ -2,7 +2,7 @@
 
 /**
    * _printf - a function that displays output to stdout
-   * @format: a type of character string
+   * @format: a type of character string pointer
    * Return: the number of characters printed
 */
 int _printf(const char *format, ...)
@@ -34,6 +34,11 @@ int _printf(const char *format, ...)
 					_putchar(s[j]);
 					count++;
 				}
+			}
+			else if (format[i] == '%')
+			{
+				_putchar('%');
+				count++;
 			}
 		}
 		else
