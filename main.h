@@ -7,7 +7,7 @@ int _putchar(char c);
 int _printf(const char *format, ...);
 int printf_char(va_list c);
 int printf_string(va_list s);
-int printf_int(va_list i);
+/**int printf_int(va_list i);
 int printf_dec(va_list d);
 int printf_rev(va_list r);
 int printf_bin(va_list b);
@@ -15,7 +15,7 @@ int printf_unsig(va_list u);
 int printf_octal(va_list o);
 int printf_x(va_list x);
 int printf_X(va_list X);
-int printf_rot13(va_list R);
+int printf_rot13(va_list R);*/
 /**
  * struct code_format - format
  * @sc: the format specifiers
