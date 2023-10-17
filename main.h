@@ -17,7 +17,7 @@ int printf_x(va_list x);
 int printf_X(va_list X);
 int printf_rot13(va_list R);
 /**
- * struct function_format - format
+ * struct code_format - format
  * @sc: the format specifiers
  * @f: function match
 */
