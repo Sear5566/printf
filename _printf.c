@@ -12,8 +12,9 @@ int (*function_match(const char *format))(va_list)
 	code_f find_f[] = {
 		{"c", printf_char},
 		{"s", printf_string},
-		/**{"i", printf_int},
+		{"i", printf_int},
 		{"d", printf_dec},
+		/**
 		{"r", printf_rev},
 		{"b", printf_bin},
 		{"u", printf_unsig},
