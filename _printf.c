@@ -14,9 +14,9 @@ int (*function_match(const char *format))(va_list)
 		{"s", printf_string},
 		{"i", printf_int},
 		{"d", printf_dec},
+		{"b", printf_bin},
 		/**
 		{"r", printf_rev},
-		{"b", printf_bin},
 		{"u", printf_unsig},
 		{"o", printf_octal},
 		{"x", printf_x},
