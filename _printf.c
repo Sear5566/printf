@@ -15,13 +15,14 @@ int (*function_match(const char *format))(va_list)
 		{"i", printf_int},
 		{"d", printf_dec},
 		{"b", printf_bin},
-		/**
 		{"r", printf_rev},
-		{"u", printf_unsig},
-		{"o", printf_octal},
-		{"x", printf_x},
-		{"X", printf_X},
-		{"R", printf_rot13},*/
+		{"R", printf_rot13},
+		/**
+		  *{"u", printf_unsig},
+		  *{"o", printf_octal},
+		  *{"x", printf_x},
+		  *{"X", printf_X},
+		*/
 		{NULL, NULL}
 	};
 
